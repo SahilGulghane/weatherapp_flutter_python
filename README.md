@@ -32,10 +32,32 @@ Before running the app, make sure you have the following installed:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone
+Replace YOUR_API_KEY_HERE in flask_api/app.py with your OpenWeatherAPI key.
 
 cd flask_api
 pip install -r requirements.txt
+Run the Flask API:
+python app.py
 
+The Flask API will start running on http://localhost:5000.
+
+Set up the Flutter app:
+cd ../flutter_app
+flutter pub get
+
+
+Replace YOUR_API_ENDPOINT in flutter_app/lib/api/api_service.dart with http://localhost:5000 if running locally or with your deployed API endpoint.
+
+Run the Flutter app:
+
+flutter run
+The app should start on your connected device or emulator.
+
+Contributing
+Contributions are welcome! If you find any bugs or want to add new features, please create an issue or submit a pull request.
+
+Acknowledgments
+Thanks to the Flutter and Flask communities for their excellent documentation and support.
+Weather data provided by OpenWeatherMap.
 
