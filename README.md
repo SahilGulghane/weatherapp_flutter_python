@@ -103,9 +103,7 @@ Create a Simple Flask API
 ```bash
 sudo vi app.py
 ```
-```bash
 
-```
 Verify if it works by running 
 ```bash
 python app.py
