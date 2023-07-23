@@ -32,7 +32,7 @@ Before running the app, make sure you have the following installed:
 1. Clone the repository:
 
 ```bash
-git clone
+git clone https://github.com/SahilGulghane/weatherapp_flutter_python.git
 Replace YOUR_API_KEY_HERE in flask_api/app.py with your OpenWeatherAPI key.
 
 cd flask_api
